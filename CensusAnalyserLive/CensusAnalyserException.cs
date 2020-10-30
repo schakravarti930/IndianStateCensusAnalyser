@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CensusAnalyserLive
 {
-    class CensusAnalyserException : Exception
+    public class CensusAnalyserException : Exception
     {
         public enum ExceptionType
         {
